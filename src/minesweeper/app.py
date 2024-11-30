@@ -1,6 +1,6 @@
 import pygame
-from configs import *
-from sprites import *
+from .configs import *
+from .sprites import *
 
 class Minesweeper:
     def __init__(self):
@@ -113,7 +113,7 @@ class Minesweeper:
                     return
 
 
-game = Minesweeper()
-while True:
-    game.new()
-    game.run()
+# game = Minesweeper()
+# while True:
+#     game.new()
+#     game.run()
